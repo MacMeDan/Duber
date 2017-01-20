@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     let ridesClient         = RidesClient()
     var button              = RideRequestButton()
     
-    //Login
+    // Login
     var uberScopes: [RidesScope]?
     var uberLoginManager: LoginManager?
     var uberLoginButton: LoginButton?
@@ -161,6 +161,7 @@ class ViewController: UIViewController {
     
     func prepareFindLocationBtn() {
         findLocationBtn = getButton()
+        findLocationBtn.backgroundColor = Color.grey.darken4
         findLocationBtn.addTarget(self, action: #selector(geocodeAction), for: .touchUpInside)
         findLocationBtn.setTitle("Find Location", for: .normal)
         
@@ -238,6 +239,8 @@ class ViewController: UIViewController {
         cityField.isHidden = hideOrUnhide
         streetField.isHidden = hideOrUnhide
         locationLabel.isHidden = hideOrUnhide
+        locationLabel.text = "Enter Destination"
+        locationLabel.textColor = Color.white
         findLocationBtn.isHidden = hideOrUnhide
     }
     
@@ -268,7 +271,8 @@ class ViewController: UIViewController {
         if let error = error {
             print("Unable to Forward Geocode Address (\(error))")
             locationLabel.isHidden = false
-            locationLabel.text = "Find Address"
+            locationLabel.textColor = Color.red.darken3.withAlphaComponent(0.8)
+            locationLabel.text = "No destination address set."
             
         } else {
             var location: CLLocation?
