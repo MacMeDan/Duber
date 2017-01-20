@@ -1,0 +1,31 @@
+PODS:
+  - Material (2.1.0)
+  - ObjectMapper (2.1.0)
+  - SnapKit (3.0.2)
+  - UberRides (0.5.2):
+    - ObjectMapper (~> 2.0)
+
+DEPENDENCIES:
+  - Material
+  - SnapKit
+  - UberRides (from `https://github.com/long/rides-ios-sdk.git`, branch `swift-3-dev`)
+
+EXTERNAL SOURCES:
+  UberRides:
+    :branch: swift-3-dev
+    :git: https://github.com/long/rides-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  UberRides:
+    :commit: 7ba4b33fe464de3520bccbb8eb35cb4015363130
+    :git: https://github.com/long/rides-ios-sdk.git
+
+SPEC CHECKSUMS:
+  Material: c5c334bd7fa8c0307cb35be143b7c51c5e2c52a7
+  ObjectMapper: e5e0f8aef8590fc2ddcde7f27eddb255863ee6e9
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  UberRides: 96eb232374a6e8e616c20fdba83c2643a6ad08dc
+
+PODFILE CHECKSUM: 52992000942960657c114046ff1f5833eddb25d3
+
+COCOAPODS: 1.1.1

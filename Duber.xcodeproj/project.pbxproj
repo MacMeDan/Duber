@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37FBD3A71E3283ED00C01F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBD3A61E3283ED00C01F52 /* AppDelegate.swift */; };
+		37FBD3A91E3283ED00C01F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBD3A81E3283ED00C01F52 /* ViewController.swift */; };
+		37FBD3AC1E3283ED00C01F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FBD3AA1E3283ED00C01F52 /* Main.storyboard */; };
+		37FBD3AE1E3283ED00C01F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FBD3AD1E3283ED00C01F52 /* Assets.xcassets */; };
+		37FBD3B11E3283ED00C01F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FBD3AF1E3283ED00C01F52 /* LaunchScreen.storyboard */; };
+		418EBDB68965ABAC0D1EFE1F /* Pods_Duber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A847AD8519F4BA97FF750A08 /* Pods_Duber.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37FBD3A31E3283ED00C01F52 /* Duber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Duber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FBD3A61E3283ED00C01F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37FBD3A81E3283ED00C01F52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37FBD3AB1E3283ED00C01F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37FBD3AD1E3283ED00C01F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37FBD3B01E3283ED00C01F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37FBD3B21E3283ED00C01F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A847AD8519F4BA97FF750A08 /* Pods_Duber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Duber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5DD6E316ECCE81B8D8C82CD /* Pods-Duber.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duber.release.xcconfig"; path = "Pods/Target Support Files/Pods-Duber/Pods-Duber.release.xcconfig"; sourceTree = "<group>"; };
+		F5878BAEC1C052B7C6CCE9A9 /* Pods-Duber.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Duber.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Duber/Pods-Duber.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37FBD3A01E3283ED00C01F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418EBDB68965ABAC0D1EFE1F /* Pods_Duber.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229BB8141E07E3FB0423D444 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5878BAEC1C052B7C6CCE9A9 /* Pods-Duber.debug.xcconfig */,
+				E5DD6E316ECCE81B8D8C82CD /* Pods-Duber.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		37FBD39A1E3283ED00C01F52 = {
+			isa = PBXGroup;
+			children = (
+				37FBD3A51E3283ED00C01F52 /* Duber */,
+				37FBD3A41E3283ED00C01F52 /* Products */,
+				229BB8141E07E3FB0423D444 /* Pods */,
+				F5F794B6C4DAD3E35015A40B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37FBD3A41E3283ED00C01F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37FBD3A31E3283ED00C01F52 /* Duber.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37FBD3A51E3283ED00C01F52 /* Duber */ = {
+			isa = PBXGroup;
+			children = (
+				37FBD3A61E3283ED00C01F52 /* AppDelegate.swift */,
+				37FBD3A81E3283ED00C01F52 /* ViewController.swift */,
+				37FBD3AA1E3283ED00C01F52 /* Main.storyboard */,
+				37FBD3AD1E3283ED00C01F52 /* Assets.xcassets */,
+				37FBD3AF1E3283ED00C01F52 /* LaunchScreen.storyboard */,
+				37FBD3B21E3283ED00C01F52 /* Info.plist */,
+			);
+			path = Duber;
+			sourceTree = "<group>";
+		};
+		F5F794B6C4DAD3E35015A40B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A847AD8519F4BA97FF750A08 /* Pods_Duber.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37FBD3A21E3283ED00C01F52 /* Duber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FBD3B51E3283ED00C01F52 /* Build configuration list for PBXNativeTarget "Duber" */;
+			buildPhases = (
+				1D2E034EBBD2ECFB0D88502D /* [CP] Check Pods Manifest.lock */,
+				37FBD39F1E3283ED00C01F52 /* Sources */,
+				37FBD3A01E3283ED00C01F52 /* Frameworks */,
+				37FBD3A11E3283ED00C01F52 /* Resources */,
+				1C6F29464DC7D9051ABE9804 /* [CP] Embed Pods Frameworks */,
+				4823DED621101BA113F96091 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Duber;
+			productName = Duber;
+			productReference = 37FBD3A31E3283ED00C01F52 /* Duber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37FBD39B1E3283ED00C01F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MacMeDan;
+				TargetAttributes = {
+					37FBD3A21E3283ED00C01F52 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 23A3RV3GPB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 37FBD39E1E3283ED00C01F52 /* Build configuration list for PBXProject "Duber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37FBD39A1E3283ED00C01F52;
+			productRefGroup = 37FBD3A41E3283ED00C01F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37FBD3A21E3283ED00C01F52 /* Duber */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37FBD3A11E3283ED00C01F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FBD3B11E3283ED00C01F52 /* LaunchScreen.storyboard in Resources */,
+				37FBD3AE1E3283ED00C01F52 /* Assets.xcassets in Resources */,
+				37FBD3AC1E3283ED00C01F52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C6F29464DC7D9051ABE9804 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Duber/Pods-Duber-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D2E034EBBD2ECFB0D88502D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4823DED621101BA113F96091 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Duber/Pods-Duber-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37FBD39F1E3283ED00C01F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FBD3A91E3283ED00C01F52 /* ViewController.swift in Sources */,
+				37FBD3A71E3283ED00C01F52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37FBD3AA1E3283ED00C01F52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FBD3AB1E3283ED00C01F52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37FBD3AF1E3283ED00C01F52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FBD3B01E3283ED00C01F52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37FBD3B31E3283ED00C01F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37FBD3B41E3283ED00C01F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37FBD3B61E3283ED00C01F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5878BAEC1C052B7C6CCE9A9 /* Pods-Duber.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23A3RV3GPB;
+				INFOPLIST_FILE = Duber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MacmeDan.Duber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		37FBD3B71E3283ED00C01F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DD6E316ECCE81B8D8C82CD /* Pods-Duber.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23A3RV3GPB;
+				INFOPLIST_FILE = Duber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MacmeDan.Duber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37FBD39E1E3283ED00C01F52 /* Build configuration list for PBXProject "Duber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FBD3B31E3283ED00C01F52 /* Debug */,
+				37FBD3B41E3283ED00C01F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FBD3B51E3283ED00C01F52 /* Build configuration list for PBXNativeTarget "Duber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FBD3B61E3283ED00C01F52 /* Debug */,
+				37FBD3B71E3283ED00C01F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37FBD39B1E3283ED00C01F52 /* Project object */;
+}
